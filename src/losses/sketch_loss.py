@@ -102,6 +102,7 @@ class OutputTransform(nn.Module):
 #import pathlib
 #working_dir = pathlib.Path().resolve()
 #path = '/home/frida/ros_ws/src/intera_sdk/SawyerPainter/src/sketch_loss/pretrained/photosketch.pth'#os.path.join(working_dir, 'pretrained/photosketch.pth')
+path = 'https://drive.google.com/file/d/1XV1KELRDuvcuhgtou3fk2_X1Utw9tRYw/view?usp=sharing'
 
 try: # If running ros, get the painting code dir
     import rospkg
