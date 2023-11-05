@@ -109,10 +109,10 @@ try: # If running ros, get the painting code dir
     # get the file path for painter code
     #ros_dir = rospack.get_path('paint')
     ros_dir = 'content/newFrida'
-    path = os.path.join(ros_dir,'src','sketch_loss', 'pretrained', 'photosketch.pth')
-    #path = path = '/content/newFrida/sketch_loss/pretrained/photosketch.pth'
+    #path = os.path.join(ros_dir,'src','sketch_loss', 'pretrained', 'photosketch.pth')
+    path = path = '/sketch_loss/pretrained/photosketch.pth'
 except:
-    path = os.path.join(ros_dir,'src','sketch_loss', 'pretrained', 'photosketch.pth')
+    #path = os.path.join(ros_dir,'src','sketch_loss', 'pretrained', 'photosketch.pth')
     #path = 'sketch_loss/pretrained/photosketch.pth'
     #path = path = '/content/newFrida/sketch_loss/pretrained/photosketch.pth'
 t_real = 'toSketch'
