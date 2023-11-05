@@ -21,7 +21,8 @@ from options_hci import Options
 # from torch_painting_models_continuous_concerted import *
 from painting import *
 from losses.style_loss import compute_style_loss
-from losses.sketch_loss.sketch_loss import compute_sketch_loss, compute_canny_loss
+from losses.sketch_loss import compute_sketch_loss, compute_canny_loss
+from sketch_loss import compute_sketch_loss, compute_canny_loss
 from losses.audio_loss.audio_loss import compute_audio_loss, load_audio_file
 from losses.emotion_loss.emotion_loss import emotion_loss
 from losses.face.face_loss import face_loss, parse_face_data
