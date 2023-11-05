@@ -15,7 +15,8 @@ import os
 import torch
 import torch.nn as nn
 import torch.nn.parallel
-from .pix2pix import ResnetGenerator
+from pix2pix import ResnetGenerator
+#from .pix2pix import ResnetGenerator
 from PIL import Image
 import torchvision.transforms as transforms
 
