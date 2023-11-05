@@ -107,7 +107,8 @@ try: # If running ros, get the painting code dir
     rospack = rospkg.RosPack()
     # get the file path for painter code
     ros_dir = rospack.get_path('paint')
-    path = os.path.join(ros_dir,'src','sketch_loss', 'pretrained', 'photosketch.pth')
+    #path = os.path.join(ros_dir,'src','sketch_loss', 'pretrained', 'photosketch.pth')
+    path = 'https://drive.google.com/file/d/1XV1KELRDuvcuhgtou3fk2_X1Utw9tRYw/view?usp=sharing'
 except:
     path = 'sketch_loss/pretrained/photosketch.pth'
 t_real = 'toSketch'
