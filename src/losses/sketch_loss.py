@@ -107,7 +107,8 @@ try: # If running ros, get the painting code dir
     import rospkg
     rospack = rospkg.RosPack()
     # get the file path for painter code
-    ros_dir = rospack.get_path('paint')
+    #ros_dir = rospack.get_path('paint')
+    ros_dir = 'content/newFrida'
     path = os.path.join(ros_dir,'src','sketch_loss', 'pretrained', 'photosketch.pth')
     #path = path = '/content/newFrida/sketch_loss/pretrained/photosketch.pth'
 except:
