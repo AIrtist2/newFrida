@@ -113,6 +113,7 @@ try: # If running ros, get the painting code dir
     #path = os.path.join(ros_dir,'src','sketch_loss', 'pretrained', 'photosketch.pth')
     ##############
     path = 'sketch_loss/pretrained/photosketch.pth'
+    path = 'https://drive.google.com/file/d/1XV1KELRDuvcuhgtou3fk2_X1Utw9tRYw/view?usp=sharing'
 except:
     path = path = 'src/sketch_loss/pretrained/photosketch.pth'
     #path = os.path.join(ros_dir,'src','sketch_loss', 'pretrained', 'photosketch.pth')
