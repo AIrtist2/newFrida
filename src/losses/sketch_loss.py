@@ -112,7 +112,7 @@ try: # If running ros, get the painting code dir
     #path = os.path.join(ros_dir,'src','sketch_loss', 'pretrained', 'photosketch.pth')
     ##############
     path = path = 'sketch_loss/pretrained/photosketch.pth'
-except:
+#except:
     #path = os.path.join(ros_dir,'src','sketch_loss', 'pretrained', 'photosketch.pth')
     #path = 'sketch_loss/pretrained/photosketch.pth'
     #path = path = '/content/newFrida/sketch_loss/pretrained/photosketch.pth'
